@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/picture_3.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "  tThis is a image of a laptop on a desk";
 
 /**
  * Project list
@@ -31,16 +31,15 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "My blog post",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "This is my medium blog. ",
+    url: "https://medium.com/@avantikapandey0001",
   },
   {
-    title: "Web Development for Beginners",
-    description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+    title: "URL-Shortener project",
+    description:"This is a simple url-shortner application made using Flask and SQLite.",
+    url: "https://github.com/codewithavantika/miniURL",
   },
   {
     title: "My Resume Site",
@@ -49,10 +48,9 @@ const projectList = [
     url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
   },
   {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+    title: "Flutter Apps",
+    description:"This is repo contains beginners flutter apps.",
+    url: "https://github.com/codewithavantika/Flutter-Learning",
   },
 ];
 
